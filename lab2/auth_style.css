@@ -1,0 +1,58 @@
+body {
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+    background-image: url('images/background.png');
+    background-size: cover;
+}
+
+form {
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 30px;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: center;
+    color:#000000 
+}
+
+.input-text {
+    width: 92%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #000000;
+    border-radius: 20px;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 11px;
+}
+
+.checkbox input {
+    margin-right: 5px;
+    margin-bottom: 11px;
+}
+
+button {
+    background-color: #ff0000;
+    color: #ffffff;
+    border: none;
+    padding:15px 25px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+button:hover {
+    background-color: #630000;
+}
